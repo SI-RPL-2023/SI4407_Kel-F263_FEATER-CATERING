@@ -1,0 +1,31 @@
+[S0 - PBI0] Membuat kelompok & rancangan ide
+KELOMPOK F-263
+FEATER CATERING SI-44-07
+
+Dyah Arum Lestari			1202204057
+Dafa Andika				1202204206
+Erlangga Faezal			1202204110
+Feni Juniarti			1202200017
+Fadhlan Putra Gusnadinata	1202204132
+
+PEMBAHASAN:
+Kelompok kami mengambil ide rancangan berupa sebuah sistem website yang berjalan pada sistem penjualan makanan sehat yang
+membantu para calon customer dalam memilih dan memakan makanan yang sudah terjamin sehat dan penjadwalan makannya. Project tersebut bernama 'FEATER CATERING'
+
+>	Pembagian tugas:
+		- Dyah Arum Lestari		> Project Manager
+		- Dafa Andika			> Analyst
+		- Erlangga Faezal			> Programmer 1
+		- Feni Juniarti			> Programmer 2
+		- Fadhlan Putra Gusnadinata	> Programmer 3
+
+>	Fitur yang akan digunakan:
+		- Homepage				- Menu Schedule
+		- View Menu				- Term & Condition
+		- Our Products			- Testimoni
+		- Price List			- Article
+		- About				- FAQ
+		- Our Kitchen			- Promo
+		- Konsultasi Via Whatsapp	- Setting Profile
+		- Order Via Whatsapp		
+
