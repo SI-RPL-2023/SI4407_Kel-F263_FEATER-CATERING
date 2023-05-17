@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<style>
+  .schedule-image {
+      position: relative;
+  max-width: 100%;
+  height: auto;
+  min-height: 41rem;
+  padding: 70px 0;
+  background-image: linear-gradient(to right,rgba(0, 0, 0, 0.5),rgba(100, 100, 100, 0) ),linear-gradient(to left,rgba(0, 0, 0, 0.5),rgba(100, 100, 100, 0) ),url("https://images.unsplash.com/photo-1506485338023-6ce5f36692df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHNjaGVkdWxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  }
+</style>
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -35,9 +50,9 @@
   <button type="button" class="btn btn-warning btn-floating" id="btn-back-to-top">
     <i class="bi bi-arrow-up fs-4"></i>
   </button>
-  <div class="container-xxl bg-white p-0">
+  <div class="container-fluid bg-white p-0">
     <!-- Navbar & Hero Start -->
-    <div class="container-xxl position-relative p-0">
+    <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
             <a href="" class="navbar-brand p-0">
                 <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i>Feater Catering</h1>
@@ -66,13 +81,13 @@
                 <a href="" class="btn btn-primary py-2 px-4">ORDER</a>
             </div>
         </nav>
-
-        <div class="pricelist-image">
+          <div class="schedule-image">
             <div class="banner-text-pricelist text-white text-center">
               <h1 class="fst-italic text-white">Schedule</h1>
             </div>
           </div>
-
+      </div>
+  </div>
   <!-- Schedule -->
   <div class="container mt-5 ps-5 pe-5">
     <div class="row justify-content-between">
@@ -163,9 +178,10 @@
         <!-- Footer End -->
 
 
-        <!-- Back to Top -->
+        <!-- Back to Top
         <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
-</div>
+        -->
+      </div>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

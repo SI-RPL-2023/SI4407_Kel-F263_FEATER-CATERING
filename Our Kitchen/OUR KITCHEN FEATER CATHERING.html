@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<style>
+    .kitchen-image {
+        position: relative;
+    max-width: 100%;
+    height: auto;
+    min-height: 41rem;
+    padding: 70px 0;
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.5),rgba(100, 100, 100, 0) ),linear-gradient(to left,rgba(0, 0, 0, 0.5),rgba(100, 100, 100, 0) ),url("https://images.unsplash.com/photo-1556911220-bff31c812dba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8a2l0Y2hlbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    }
+</style>
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -35,9 +50,9 @@
   <button type="button" class="btn btn-warning btn-floating" id="btn-back-to-top">
     <i class="bi bi-arrow-up fs-4"></i>
   </button>
-  <div class="container-xxl bg-white p-0">
+  <div class="container-fluid bg-white p-0">
     <!-- Navbar & Hero Start -->
-    <div class="container-xxl position-relative p-0">
+    <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
             <a href="" class="navbar-brand p-0">
                 <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i>Feater Catering</h1>
@@ -67,17 +82,18 @@
             </div>
         </nav>
 
-        <div class="pricelist-image">
+        <div class="kitchen-image">
             <div class="banner-text-pricelist text-white text-center">
               <h1 class="fst-italic text-white">Our Kitchen</h1>
             </div>
           </div>
+    </div>
+  </div>
 
     <!-- Kitchen -->
     <div class="container-xxl py-5 iframe-container">
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4709.617011694696!2d107.6311369524067!3d-6.9739006829410295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sid!4v1684295644929!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-
     
 <!-- Footer Start -->
 <div class="container-fluid bg-dark footer text-light mt-5 py-5">
@@ -101,9 +117,10 @@
 <!-- Footer End -->
 
 
-<!-- Back to Top -->
+<!-- Back to Top
 <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 </div>
+-->
 
 <!-- JavaScript Libraries -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
